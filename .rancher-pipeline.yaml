@@ -1,0 +1,8 @@
+# example
+stages:
+- name: Build something
+  steps:
+  - runScriptConfig:
+      image: golang
+      shellScript: |
+        echo "Running test script"
